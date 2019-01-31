@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame">
+    <script src="aframe-master.js"></script>
+  </head>
+  <body>
+	<a-scene raycaster="far: 100; objects: [link];" cursor="rayOrigin: mouse" camera-position>
+   
+<a-link href="index.html" position="-80.0 -25.5 -5.0" image="#thumbHome"></a-link>
+<a-link href="city.html" position="-20 -20.5 -49.0" image="#thumbCity"></a-link>
+<a-link href="city2.html" position="3.5 1.5 -1.0" image="#thumbMountains"></a-link>
+      <a-sky src="rendp3.jpeg" rotation="0 -130 0"></a-sky>
+
+      <a-text font="kelsonsans" value="Whelcome to piano projections!!" width="10" position="-2.5 0.25 -1.5"
+              rotation="0 15 0"></a-text>
+<a-entity id="sky" geometry="primitive: sphere; radius: 65;" material="shader: skyGradient; colorTop: #353449;
+    </a-scene>
+
+  </body>
+</html>
+
